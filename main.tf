@@ -4,7 +4,7 @@ availability_zone = "nova"
 image_name = var.image_name 
 flavor_name = var.flavor_name
 key_pair = var.key_pair
-security_groups = [ var.security_groups[0],var.security_groups[1]]
+security_groups = [ var.security_groups[0],var.security_groups[1],var.security_groups[2]]
 user_data = file("scripts/M_volume.sh")
 
 network {
