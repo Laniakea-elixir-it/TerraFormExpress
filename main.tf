@@ -14,7 +14,7 @@ name = var.network_name_public
 
 resource "openstack_blockstorage_volume_v2" "export-terra" {
   name = "export-terra"
-  size = 200
+  size = 50
 
 }
 
