@@ -4,12 +4,12 @@ default = "terraform-ga"
 }
 variable image_name{
 type = string
-#default = "galaxy20_05lite" 
+#default = "galaxy-express,release_24.2_v1.0.4" 
 }
 
 variable flavor_name {
 type = string
-default = "large"
+default = "xlarge"
 }
 
 variable key_pair {
